@@ -8,8 +8,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #include <stdio.h>
 #include <SDL/SDL.h>
 
-#include "headers/MARIO_quit.h"
-#include "headers/MARIO_musique.h"
+#include "Headers/MARIO_quit.h"
+#include "Headers/MARIO_musique.h"
 
 //--Variable-generale--//
 extern int run, run_game;

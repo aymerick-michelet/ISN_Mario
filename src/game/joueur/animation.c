@@ -8,7 +8,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #include <stdio.h>
 #include <SDL/SDL.h>
 
-#include "headers/MARIO_joueur.h"
+#include "Headers/MARIO_joueur.h"
 
 //--------Variable-générale--------//
 extern SDL_Surface *perso, *img;

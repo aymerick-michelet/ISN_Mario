@@ -1,4 +1,4 @@
-void init_mechant();
+void init_mechant(int nb);
 
 void afficher_mechant();
 

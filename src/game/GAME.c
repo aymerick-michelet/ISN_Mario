@@ -16,8 +16,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #include "Headers/MARIO_conditions.h"
 #include "Headers/MARIO_mechant.h"
 #include "Headers/MARIO_joueur.h"
-#include "headers/MARIO_menu.h"
-#include "headers/MARIO_game.h"
+#include "Headers/MARIO_menu.h"
+#include "Headers/MARIO_game.h"
 
 
 

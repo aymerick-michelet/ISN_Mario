@@ -18,7 +18,10 @@ void init_mus()
    
    Mix_AllocateChannels(32);
    SDL_WM_SetCaption("SDL_Mixer", NULL);
-   if(Mix_OpenAudio( 22050, MIX_DEFAULT_FORMAT, MIX_DEFAULT_CHANNELS, 1024) == -1){printf("%s",Mix_GetError);}
+   if(Mix_OpenAudio( 22050, MIX_DEFAULT_FORMAT, MIX_DEFAULT_CHANNELS, 1024) == -1){
+      //printf("%s", Mix_GetError);
+      printf("error music");
+   }
    
    
    musiqueFond = Mix_LoadMUS("./musique/gameTheme.mp3"); //Chargement de la musique

@@ -12,12 +12,12 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #include <stdio.h>
 #include <SDL/SDL.h>
 
-#include "headers/MARIO_quit.h"
-#include "headers/MARIO_joueur.h"
+#include "Headers/MARIO_quit.h"
+#include "Headers/MARIO_joueur.h"
 #include "Headers/MARIO_niveau.h"
 #include "Headers/MARIO_conditions.h"
 #include "Headers/MARIO_game.h"
-#include "headers/MARIO_musique.h"
+#include "Headers/MARIO_musique.h"
 
 
 
@@ -79,12 +79,17 @@ void deplacement(){
                     break;
             
                 case SDLK_SPACE:
-                if(go('B')){bool_saut = 1;playSon(1);}
-                    
+                    if(go('B')){
+                        bool_saut = 1;
+                        playSon(1);
+                    }
                     break;
 
                 case SDLK_ESCAPE:
                     quit_game();
+                    break;
+                
+                default:
                     break;
             }
         break;
@@ -105,6 +110,9 @@ void deplacement(){
             
                 case SDLK_SPACE:
                     bool_saut = 0;
+                    break;
+                
+                default:
                     break;
             }
         break;

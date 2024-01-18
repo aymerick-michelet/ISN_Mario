@@ -10,10 +10,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #include <SDL/SDL.h>
 
 #include "Headers/MARIO_conditions.h"
-#include "headers/MARIO_quit.h"
+#include "Headers/MARIO_quit.h"
 #include "Headers/MARIO_game.h"
 #include "Headers/MARIO_niveau.h"
-#include "headers/MARIO_musique.h"
+#include "Headers/MARIO_musique.h"
 
 
 //------------Variable-générale------------//

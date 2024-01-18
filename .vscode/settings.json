@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "mario_menu.h": "c",
+        "mario_niveau.h": "c",
+        "mario_joueur.h": "c"
+    }
+}

@@ -11,12 +11,12 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #include <stdio.h>
 #include <SDL/SDL.h>
 
-#include "headers/MARIO_conditions.h"
-#include "headers/MARIO_mechant.h"
-#include "headers/MARIO_joueur.h"
-#include "headers/MARIO_game.h"
+#include "Headers/MARIO_conditions.h"
+#include "Headers/MARIO_mechant.h"
+#include "Headers/MARIO_joueur.h"
+#include "Headers/MARIO_game.h"
 #include "Headers/MARIO_niveau.h"
-#include "headers/MARIO_musique.h"
+#include "Headers/MARIO_musique.h"
 
 
 //--------------------------Variable-générale--------------------------//
